@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+     <meta charset="UTF-8" />
+    <link type="html/css" href="style.css" rel="stylesheet" />
+<head>
+<title>Test</title>
+</head>
+<body>
+        <div id="header">
+            <h1>имя и фамилия</h1>
+            <h3>специальность</h3>
+            <p><a href="mailto:xx@yy.zz">email-адрес</a>, <a href="http://tes.com">адрес вашего сайта</a></p>
+        </div>
+
+        <div id="main">
+            <section> 
+                <h2>Опыт работы</h2>
+            <ul>
+                <li>"Опыт работы"</li>
+                <li> "Образование"</li>
+                <li>"Другие навыки и увлечения"</li>
+            </ul></section>
+
+            <section>
+             <h2>"Образование"</h2>
+            <ul>
+                <li>"Опыт работы"</li>
+                <li> "Образование"</li>
+                <li>"Другие навыки и увлечения"</li>
+            </ul>
+            </section>
+
+            <section>
+                <h2>Другие навыки и увлечения"</h2>
+              <ul>
+                <li>"Опыт работы"</li>
+                <li> "Образование"</li>
+                <li>"Другие навыки и увлечения"</li>
+            </ul>
+            </section>
+
+        </div>
+        
+        <div id="footer">имя, адрес, 123123123, <a href="mailto:xx@yy.zz">email</a></div>
+</body>
+</html>
