@@ -2,6 +2,28 @@
 <html lang="">
      <meta charset="UTF-8" />
     <link type="html/css" href="style.css" rel="stylesheet" />
+    <script type="text/javascript">
+
+    const smallestDivisor = (num) => {
+      // BEGIN (write your solution here)
+      const iter = (n, div) => {
+
+      if (n % div === 0) {
+       return div;
+      }
+
+      return iter(n, div+1);
+
+    };
+
+    return iter(num,2);
+      // END
+    };
+
+  alert(smallestDivisor(15));
+  alert(smallestDivisor(17));
+
+    </script>
 <head>
 <title>Test</title>
 </head>
