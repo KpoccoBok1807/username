@@ -4,24 +4,26 @@
     <link type="html/css" href="style.css" rel="stylesheet" />
     <script type="text/javascript">
 
-    const smallestDivisor = (num) => {
-      // BEGIN (write your solution here)
-      const iter = (n, div) => {
+    const isPrime = (i) => {
 
-      if (n % div === 0) {
-       return div;
-      }
+       if(i<=1){
+         return false;
+       }
 
-      return iter(n, div+1);
+       for(let n = 1; n<i ; n++){
 
-    };
+          if(i%n===0){
+            return true;
+          }
 
-    return iter(num,2);
-      // END
-    };
+       }
 
-  alert(smallestDivisor(15));
-  alert(smallestDivisor(17));
+       return false;
+
+    }
+
+alert(isPrime(4));
+
 
     </script>
 <head>
